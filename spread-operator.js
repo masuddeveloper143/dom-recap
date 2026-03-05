@@ -1,1 +1,1 @@
-const friends = ["masud"]
+const friends = ["masud", "forhad", ]
