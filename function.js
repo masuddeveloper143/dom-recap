@@ -52,4 +52,7 @@
 // -------------------------------------------------------------
 
 
-document.getElementById()
+document.getElementById('title')
+    .addEventListener('click', () => {
+
+    });
