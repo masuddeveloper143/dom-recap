@@ -1,1 +1,3 @@
-const friends = ["masud", "forhad", ]
+const friends = ["masud", "forhad", "romjan"];
+
+console.log
