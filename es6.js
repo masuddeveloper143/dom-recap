@@ -14,3 +14,10 @@
 // friends.push("skbd");
 // console.log(friends);
 
+
+const person = {
+    name: "masud rana"
+}
+
+person.name = "mahmodul hasan";
+console.log(person);
