@@ -15,9 +15,10 @@
 // console.log(friends);
 
 
-const person = {
-    name: "masud rana"
-}
+// const person = {
+//     name: "masud rana"
+// }
 
-person.name = "mahmodul hasan";
-console.log(person);
+// person.name = "mahmodul hasan";
+// console.log(person);
+
