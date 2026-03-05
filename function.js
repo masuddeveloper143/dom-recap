@@ -12,5 +12,6 @@
 // console.log(sum(13, 5));
 
 const sum = (num1) =>{
-    console.log()
+    console.log("hello");
 }
+
