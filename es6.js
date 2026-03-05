@@ -7,7 +7,10 @@
 // age = 33;
 // console.log(age);
 
-const friends = ["hena", "hero alom"];
 
-friends = "skbd";
-console.log(friends);
+
+// const friends = ["hena", "hero alom"];
+
+// friends.push("skbd");
+// console.log(friends);
+
