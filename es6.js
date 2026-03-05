@@ -9,4 +9,5 @@
 
 const friends = ["hena", "hero alom"];
 
-friends = ""
+friends = "skbd";
+console.log(friends);
