@@ -23,5 +23,4 @@
 
 6. use function to reduce duplicate code
 6. event dubble and evet delegate
-2-1:
-*/
+2-
