@@ -6,3 +6,7 @@
 
 // age = 33;
 // console.log(age);
+
+const friends = ["hena", "hero alom"];
+
+friends = ""
