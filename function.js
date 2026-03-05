@@ -9,4 +9,4 @@
 const sum = (num1, num2) => {
     return num1 + num2;
 };
-console.log(13, 5)
+console.log(sum(13, 5));
