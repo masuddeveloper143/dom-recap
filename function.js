@@ -3,4 +3,4 @@
 
 
 const sum = (num1, num2) => num1 + num2;
-console.log(sum(36, 50));
+console.log(sum(10, 20));
