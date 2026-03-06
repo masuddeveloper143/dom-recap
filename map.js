@@ -67,12 +67,15 @@
 // });
 
 
+
+
 // short way 
-const friends = ["masud", "rubel", "romjan", 'forhad'];
+// const friends = ["masud", "rubel", "romjan", 'forhad'];
 
-const newFriends = friends.map((element, index) => {
-    console.log(index);
-    return element;
-});
+// const newFriends = friends.map((element, index) => {
+//     console.log(index);
+//     console.log(element);
+//     // return element;
+// });
 
-console.log(friends);
+// console.log(friends);
