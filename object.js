@@ -26,4 +26,5 @@ const person = {
     contry: "bd",
 }
 
-console.log(person("name"));
+// console.log(person["name"]);
+// console.log(person.name);
