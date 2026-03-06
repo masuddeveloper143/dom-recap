@@ -13,13 +13,15 @@ class product {
     }
 
     detles() {
-        console.log("ami deailes", this.name)
+        console.log(`ami  ${this.name} product er details`)
     }
 }
 
 
 const ipone = new product("iphone", "1234", "apple", "joob");
 ipone.detles()
+
+const 
 
 // const iphone = new product();
 // console.log(iphone.detles);
