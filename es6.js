@@ -24,18 +24,30 @@
 
 // --------------------------------------------------------------------
 
-const person = {
-    name: "masud",
-    age: 23,
-}
+// const person = {
+//     name: "masud",
+//     age: 23,
+// }
 
-const { age, name, } = person;
+// delete person.name;
 
-const friends = ["masud", "banglaseh", "romjan"];
+// console.log(person);
 
-const [frist, second] = friends;
-// console.log(...friends);
-const newFriends = ["hero alam", ...friends];
+
+// // console.log(Object.keys(person))
+
+// // console.log(Object.values(person))
+
+// // console.log(Object.entries(person))
+
+
+// const { age, name, } = person;
+
+// const friends = ["masud", "banglaseh", "romjan"];
+
+// const [frist, second] = friends;
+// // console.log(...friends);
+// const newFriends = ["hero alam", ...friends];
 
 // console.log(newFriends);
 
@@ -43,3 +55,33 @@ const newFriends = ["hero alam", ...friends];
 //     amar sunar bangla ami tumay valo vashi ${friends[1]} cirodin tumar akash
 //     `)
 
+
+// // -----------------------------------------------------------------------------------------------------------------
+
+
+// const person = {
+//     name: "masud",
+//     1: "100",
+//     age: 24,
+//     friends: ["sanaullah", "raihan"],
+//     detailes: {
+//         job: "yes",
+//         isMarrid: true,
+//         status: "not found",
+
+//         fathers: {
+//             name: "saban ali"
+//         }
+//     }
+
+// }
+
+// console.log(person[1]);
+
+// console.log(person.detailes.fathers.name);
+
+// console.log(person.detailes.mother?.name);
+
+// console.log(person["name"]);
+
+// console.log(person["detailes"]["job"]);
