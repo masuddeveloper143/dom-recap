@@ -38,3 +38,7 @@ class truck extends vahical {
         console.log("one day howmany trip");
     }
 }
+
+const greenLine = new Bus("greenLine", "12", 50);
+// console.log(greenLine);
+greenLine.route()
