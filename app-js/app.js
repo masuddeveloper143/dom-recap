@@ -9,4 +9,5 @@ const person = {
 const newPerson = JSON.stringify(person);
 // console.log(newPerson);
 
-const newPerson2 = JSON.stringify(newPerson);
+const newPerson2 = JSON.parse(newPerson);
+console.log(newPerson2);
