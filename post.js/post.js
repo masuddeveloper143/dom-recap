@@ -9,7 +9,7 @@ const handlePost = () => {
 }
 
 const displayPost = (posts) =>{
-    console.log(posts)
+    
 }
 
 handlePost()
