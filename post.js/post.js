@@ -9,7 +9,11 @@ const handlePost = () => {
 }
 
 const displayPost = (posts) =>{
-    
+    const postContainer = document.getElementById('postContainer');
+
+    for(let post of posts){
+        
+    }
 }
 
 handlePost()
