@@ -14,13 +14,17 @@ const loasUser = () => {
 
 }
 
+const showUser = (users) => {
+    console.log(users);
+}
+
+
+
+
 // const showUser = (users) => {
-//     console.log(users);
+//     for (let i = 0; i < users.length; i++) {
+//         const user = users[i]
+//         console.log(user);
+//     }
 // }
 
-const showUser = (users) => {
-    for (let i = 0; i < users.length; i++) {
-        const user = users[i]
-        console.log(user);
-    }
-}
