@@ -17,7 +17,13 @@ const loasUser = () => {
 const showUser = (users) => {
     console.log(users);
 
-const userContainer = document.getElementById('')
+    const userContainer = document.getElementById('users');
+
+    for(const user of users){
+        const li = document.createElement('li');
+        li.innerText = "ami brooo brooo";
+        userContainer.appendChild(li);
+    }
 
 
 
