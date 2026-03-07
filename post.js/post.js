@@ -1,13 +1,13 @@
 const handlePost = () => {
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch("https://jsonplaceholder.typicode.com/posts")
         .then(Response => Response.json())
         .then(data =>{
             displayPost(data)
         } )
 }
 
-const displayPost = (posts) =>{
-    console.log(posts)
-}
+// const displayPost = (posts) =>{
+//     console.log(posts)
+// }
 
-handlePost()
+// handlePost()
