@@ -1,34 +1,34 @@
-// const loasUser = () => {
-//     // console.log("clicked button")
+const loadUser = () => {
+    // console.log("clicked button")
 
-//     fetch("https://jsonplaceholder.typicode.com/users")
-//         .then(Response => Response.json())
+    fetch("https://jsonplaceholder.typicode.com/users")
+        .then(Response => Response.json())
 
-//         .then(data => showUser(data))
+        .then(data => showUser(data))
 
-//     // .then(data =>  {
-//     //     // console.log(data[0]);
-//     //     // showUser(data)
+    // .then(data =>  {
+    //     // console.log(data[0]);
+    //     // showUser(data)
 
-//     // })
+    // })
 
-// }
+}
 
-// const showUser = (users) => {
-//     console.log(users);
+const showUser = (users) => {
+    console.log(users);
 
-//     const userContainer = document.getElementById('users');
+    const userContainer = document.getElementById('users');
 
-//     for (const user of users) {
-//         console.log(user.name);
-//         const li = document.createElement('li');
-//         li.innerText = user.name;
-//         userContainer.appendChild(li);
-//     }
+    for (const user of users) {
+        console.log(user.name);
+        const li = document.createElement('li');
+        li.innerText = user.name;
+        userContainer.appendChild(li);
+    }
 
 
 
-// }
+}
 
 
 
