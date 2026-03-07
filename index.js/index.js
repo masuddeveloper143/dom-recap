@@ -19,9 +19,10 @@ const showUser = (users) => {
 
     const userContainer = document.getElementById('users');
 
-    for(const user of users){
+    for (const user of users) {
+        console.log(user.name);
         const li = document.createElement('li');
-        li.innerText = "ami brooo brooo";
+        li.innerText = user.name;
         userContainer.appendChild(li);
     }
 
