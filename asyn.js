@@ -1,19 +1,19 @@
-const handleUser3 = async () => {
+// const handleUser3 = async () => {
 
 
-    try {
-        const response = fetch("https://jsonplaceholder.typicode.com/users");
+//     try {
+//         const response = fetch("https://jsonplaceholder.typicode.com/users");
 
 
 
-        const data = (await response).json();
-        console.log(data);
+//         const data = (await response).json();
+//         console.log(data);
 
-    }
+//     }
 
-    catch {
-        console.log("hello")
-    }
-}
+//     catch {
+//         console.log("hello")
+//     }
+// }
 
-handleUser3()
+// handleUser3()
