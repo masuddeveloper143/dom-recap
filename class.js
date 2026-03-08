@@ -32,3 +32,4 @@
 
 // const iphone = new product();
 // iphone.detles();
+
