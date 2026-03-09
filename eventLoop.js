@@ -15,6 +15,12 @@ setTimeout(() => {
 }, 3000);
 
 
+
+setTimeout(() => {
+    console.log("ami settimeout")
+}, 3000);
+
+
 function c() {
     d();
 
