@@ -41,12 +41,12 @@ const clockID = setInterval(() => {
     console.log(count);
 
     // clearInterval(clockID);
-    if (count >= 10) {
+    if (count >= 300) {
         clearInterval(clockID);
         console.log('timeer fhished')
     }
 
-}, 100)
+}, 50)
 
 console.log(4)
 console.log(5)
